@@ -34,8 +34,8 @@ function modifyGroupTitle($filePath, $newGroupTitles) {
 }
 
 // Example usage
-$url = 'https://daddylive-me.vercel.app/daddylive';  // URL of the M3U8 file
-$localFile = 'dlhd.m3u8';  // New local file name for the M3U8 file
+$url = 'https://raw.githubusercontent.com/JHarding86/daddylive-m3u/refs/heads/main/all_channels/playlist.m3u8';  // URL of the M3U8 file
+$localFile = 'dlhd.txt';  // New local file name for the M3U8 file
 
 // Download the M3U8 file
 downloadM3U8File($url, $localFile);
